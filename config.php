@@ -30,10 +30,35 @@ $data = array(
 					'name'    => 'Operation Elementor Addons',
 				),
 				array(
+					'slug'    => 'woocommerce',
+					'init'    => 'woocommerce/woocommerce.php',
+					'name'    => 'WooCommerce',
+				),
+				array(
 					'slug'    => 'contact-form-7',
 					'init'    => 'contact-form-7/wp-contact-form-7.php',
 					'name'    => 'Contact Form 7',
 				),
+              array(
+                'slug'    => 'salert',
+                'init'    => 'salert/salert.php',
+                'name'    => 'Salert',
+              ),
+              array(
+                'slug'    => 'yith-woocommerce-wishlist',
+                'init'    => 'yith-woocommerce-wishlist/init.php',
+                'name'    => 'YITH WooCommerce Wishlist',
+              ),
+              array(
+                'slug'    => 'yith-woocommerce-quick-view',
+                'init'    => 'yith-woocommerce-quick-view/init.php',
+                'name'    => 'YITH WooCommerce Quick View',
+              ),              
+              array(
+                'slug'    => 'yith-woocommerce-compare',
+                'init'    => 'yith-woocommerce-compare/init.php',
+                'name'    => 'YITH WooCommerce Compare',
+              ),
 			),
 		),
 	),
